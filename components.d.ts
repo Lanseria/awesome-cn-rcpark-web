@@ -4,8 +4,15 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
-    Counter: typeof import('./src/components/Counter.vue')['default']
-    Footer: typeof import('./src/components/Footer.vue')['default']
+    AboutComp: typeof import('./src/components/AboutComp.vue')['default']
+    DetailComp: typeof import('./src/components/DetailComp.vue')['default']
+    FloatControl: typeof import('./src/components/FloatControl.vue')['default']
+    ListItem: typeof import('./src/components/ListItem.vue')['default']
+    LogoComp: typeof import('./src/components/LogoComp.vue')['default']
+    MapComp: typeof import('./src/components/MapComp.vue')['default']
+    ModalComp: typeof import('./src/components/ModalComp.vue')['default']
+    NavComp: typeof import('./src/components/NavComp.vue')['default']
+    SearchComp: typeof import('./src/components/SearchComp.vue')['default']
   }
 }
 

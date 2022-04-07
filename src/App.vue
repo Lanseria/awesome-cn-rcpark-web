@@ -1,10 +1,43 @@
+<script lang="ts" setup>
+import {
+  about,
+  city,
+  current,
+  data,
+  filter,
+  filteredGeo,
+  searchOpen,
+  setAbout,
+  setCurrent,
+  setSearchOpen,
+} from '~/composables/store'
+</script>
+
 <template>
-  <main
-    font-sans p="x-4 y-10"
-    text="gray-700 dark:gray-200"
-    bg="gray-100 dark:gray-900"
-    border="1px solid gray-300 dark:gray-800"
-  >
-    <router-view />
-  </main>
+  <div h-full relative>
+    <div
+      h-full
+      grid
+      relative
+      style="grid-template-rows: max-content auto"
+    >
+      <nav-comp />
+      <map-comp
+        :city="city"
+        :data="data"
+        :geo="filteredGeo"
+        :filter="filter"
+      />
+    </div>
+    <float-control />
+    <modal-comp :value="about" :set-value="() => setAbout(false)">
+      <about-comp />
+    </modal-comp>
+    <modal-comp :value="!!current" :set-value="() => setCurrent(null)">
+      <detail-comp v-if="current" :shop="current" />
+    </modal-comp>
+    <modal-comp :value="searchOpen" :set-value="() => setSearchOpen(false)">
+      <search-comp />
+    </modal-comp>
+  </div>
 </template>
