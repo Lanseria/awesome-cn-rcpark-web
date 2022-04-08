@@ -24,7 +24,7 @@ import fg from 'fast-glob';
     data[name].data = JSON.parse(await fs.readFile(file, 'utf-8'))
 
     data[name].data.features.forEach((i) => {
-      // i.properties.shortname = i.properties['名称']
+      i.properties.shortname = i.properties['名称']
       //   .replace(/[(（].*[)）]/g, '')
       //   .replace('星巴克', 'Starbucks')
       //   .replace(/Starbucks\s*Starbucks/, 'Starbucks')
