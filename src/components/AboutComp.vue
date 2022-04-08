@@ -29,7 +29,7 @@ import { fromNow } from '~/utils/time'
     >
       数据来源
       <a
-        text="gray-700 hover:gray-900"
+        class="text-gray-700 hover:text-gray-900"
         href="https://github.com/Lanseria/awesome-cn-data/tree/rc-parka"
         target="_blank"
         rel="noreferrer"
@@ -49,7 +49,7 @@ import { fromNow } from '~/utils/time'
     >
       Made by
       <a
-        text="gray-700 hover:gray-900"
+        class="text-gray-700 hover:text-gray-900"
         href="https://github.com/lanseria"
         target="_blank"
         rel="noreferrer"
@@ -62,7 +62,7 @@ import { fromNow } from '~/utils/time'
     >
       Fork by
       <a
-        text="gray-700 hover:gray-900"
+        class="text-gray-700 hover:text-gray-900"
         href="https://github.com/aufu"
         target="_blank"
         rel="noreferrer"
@@ -75,7 +75,7 @@ import { fromNow } from '~/utils/time'
     >
       源代码在
       <a
-        text="gray-700 hover:gray-900"
+        class="text-gray-700 hover:text-gray-900"
         href="https://github.com/Lanseria/awesome-cn-rcpark-web"
         target="_blank"
         rel="noreferrer"
