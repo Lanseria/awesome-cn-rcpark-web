@@ -1,4 +1,4 @@
-export const AppName = 'Café 𝐂𝐍'
+export const AppName = 'RCPark 𝐂𝐍'
 
 export const ColorToIcon: Record<string, string> = {
   '#50C240': 'ant-design:car-filled',

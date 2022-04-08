@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { type PropType, onMounted, ref, watch } from 'vue'
+import { type PropType } from 'vue'
 
 import mapboxgl from 'mapbox-gl'
 import MapboxLanguage from '@mapbox/mapbox-gl-language'

@@ -10,7 +10,7 @@ import { fromNow } from '~/utils/time'
       <LogoComp />
     </h1>
     <div class="text-sm text-gray-500 my-1 font-light">
-      用户分享网速良好的咖啡奶茶店
+      用户分享三好房车停车点
     </div>
     <div class="text-sm text-gray-500 my-1 font-light">
       数据来源
