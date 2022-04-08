@@ -1,5 +1,19 @@
 {
-  "cSpell.words": ["Vitesse"],
+  "cSpell.words": [
+    "antfu",
+    "Attributify",
+    "emitt",
+    "iconify",
+    "pnpm",
+    "rcpark",
+    "unocss",
+    "unplugin",
+    "vite",
+    "vitejs",
+    "Vitesse",
+    "vitest",
+    "vueuse"
+  ],
   "prettier.enable": false,
   "typescript.tsdk": "node_modules/typescript/lib",
   "editor.codeActionsOnSave": {
