@@ -62,7 +62,11 @@ const {
         :href="`https://uri.amap.com/marker?position=${location1}&name=${name}`"
         target="_blank"
         rel="noreferrer"
-        class="border border-gray-200 rounded px-4 py-2 text-gray-600 text-sm mx-1"
+        border="~ gray-200"
+        rounded
+        p="x4 y2"
+        text="sm gray-600"
+        m="x1"
       >
         高德地图
       </a>
