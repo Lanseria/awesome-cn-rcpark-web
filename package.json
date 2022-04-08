@@ -2,6 +2,9 @@
   "private": true,
   "packageManager": "pnpm@6.32.3",
   "scripts": {
+    "fetch": "git clone -b rc-park https://github.com/Lanseria/awesome-cn-data cafe 2> /dev/null || git -C cafe pull",
+    "data": "node ./scripts/process.mjs",
+    "postinstall": "npm run fetch && npm run data",
     "build": "vite build",
     "dev": "vite --port 3333 --open",
     "lint": "eslint .",

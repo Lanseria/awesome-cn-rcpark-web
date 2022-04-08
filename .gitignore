@@ -7,3 +7,5 @@ dist-ssr
 node_modules
 .idea/
 *.log
+src/build.ts
+src/data.json

@@ -5,12 +5,18 @@ import { fromNow } from '~/utils/time'
 </script>
 
 <template>
-  <div class="p-10 py-8">
-    <h1 class="text-lg font-light text-gray-900 mb-4">
+  <div
+    p="10 y-8"
+  >
+    <h1
+      text="lg gray-900"
+      font-light
+      m="b4"
+    >
       <LogoComp />
     </h1>
     <div class="text-sm text-gray-500 my-1 font-light">
-      用户分享三好房车停车点
+      分享三好房车停车点
     </div>
     <div class="text-sm text-gray-500 my-1 font-light">
       数据来源
