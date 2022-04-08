@@ -22,10 +22,10 @@ import { fromNow } from '~/utils/time'
       数据来源
       <a
         class="text-gray-700 hover:text-gray-900"
-        href="https://gitee.com/vhik/awesome-cn-share-data"
+        href="https://github.com/Lanseria/awesome-cn-data"
         target="_blank"
         rel="noreferrer"
-      >AwesomeCnShareData(Gitee)</a>
+      >AwesomeCnData(Github)</a>
     </div>
     <div class="text-sm text-gray-500 my-1 font-light">
       最近更新 <span class="text-gray-700">{{ fromNow(BuildTime) }}</span>
@@ -52,7 +52,7 @@ import { fromNow } from '~/utils/time'
       源代码在
       <a
         class="text-gray-700 hover:text-gray-900"
-        href="https://github.com/Lanseria/awesome-cn-tea-web"
+        href="https://github.com/Lanseria/awesome-cn-rcpark-web"
         target="_blank"
         rel="noreferrer"
       >Github</a>
