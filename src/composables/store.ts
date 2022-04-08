@@ -30,7 +30,7 @@ export const fuseByReferrers = new Fuse(shops, {
 
 export type Cities = keyof typeof raw
 
-export const city = useStorage('cafe-cn-city', 'shanghai') as Ref<Cities>
+export const city = useStorage('cafe-cn-city', 'hangzhou') as Ref<Cities>
 export const filter = useStorage('cafe-cn-filter', 'all')
 export const loc = ref<[number, number] | null>(null)
 export const about = ref(false)
