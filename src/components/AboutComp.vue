@@ -22,7 +22,7 @@ import { fromNow } from '~/utils/time'
       数据来源
       <a
         class="text-gray-700 hover:text-gray-900"
-        href="https://github.com/Lanseria/awesome-cn-data"
+        href="https://github.com/Lanseria/awesome-cn-data/tree/rc-parka"
         target="_blank"
         rel="noreferrer"
       >AwesomeCnData(Github)</a>
