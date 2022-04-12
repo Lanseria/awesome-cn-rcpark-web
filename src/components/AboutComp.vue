@@ -20,8 +20,9 @@ import { fromNow } from '~/utils/time'
       m="y1"
       font-light
     >
-      分享三好房车停车点
+      分享国内推荐停车位（避免罚单）
     </div>
+
     <div
       text="sm gray-500"
       m="y1"
@@ -35,6 +36,21 @@ import { fromNow } from '~/utils/time'
         rel="noreferrer"
       >AwesomeCnData(Github)</a>
     </div>
+
+    <div
+      text="sm gray-500"
+      m="y1"
+      font-light
+    >
+      国内数据提交地址
+      <a
+        class="text-gray-700 hover:text-gray-900"
+        href="https://gitee.com/vhik/awesome-cn-data/tree/rc-park"
+        target="_blank"
+        rel="noreferrer"
+      >AwesomeCnData(Gitee)</a>
+    </div>
+
     <div
       text="sm gray-500"
       m="y1"
