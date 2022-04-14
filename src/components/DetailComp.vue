@@ -13,8 +13,8 @@ const props = defineProps({
 const {
   name,
   color,
-  speed,
-  speedtest,
+  suggestion,
+  weiBoUrl,
   location1,
   location2,
   table,
@@ -29,13 +29,10 @@ const {
       {{ name }}
     </h1>
     <p class="text-gray-500 text-sm">
-      <a
-        :href="speedtest"
+      <span
         :style="{ color }"
         class="inline-block"
-        target="_blank"
-        rel="noreferrer"
-      >{{ speed }}</a>
+      >{{ suggestion }}</span>
       <template v-if="distance">
         <span class="inline-block align-middle mx-1">・</span>
         <span class="inline-block align-middle">{{ distance }}</span>
@@ -44,11 +41,20 @@ const {
       <span class="inline-block align-middle">{{
         coordinates.map((i:any) => i.toFixed(3)).join(", ")
       }}</span>
+      <template v-if="weiBoUrl">
+        <span class="inline-block align-middle mx-1">・</span>
+        <a
+          :href="weiBoUrl"
+          class="inline-block text-yellow-600"
+          target="_blank"
+          rel="noreferrer"
+        >微博链接</a>
+      </template>
     </p>
     <table class="px-2 mt-5 mb-3 text-sm">
       <tbody>
         <tr v-for="[key, value] in table" :key="key">
-          <td class="pr-5 text-right text-gray-600 py-2">
+          <td class="pr-5 text-right text-gray-600 py-2 w-30">
             {{ key }}
           </td>
           <td class="py-2">
