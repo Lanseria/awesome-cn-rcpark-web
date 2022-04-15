@@ -10,7 +10,7 @@ const props = defineProps({
     required: true,
   },
 })
-const { name, color, speed, distance, referrers } = parseShop(props.shop)
+const { name, color, suggestion, distance, referrers } = parseShop(props.shop)
 const onClick = () => {
   setCurrent(props.shop)
   setSearchOpen(false)
@@ -28,7 +28,7 @@ const onClick = () => {
     </h1>
     <p class="text-gray-500 text-sm">
       <span class="inline-block align-middle" :style="{ color }">
-        {{ speed }}</span>
+        {{ suggestion }}</span>
       <template v-if="distance">
         <span class="inline-block align-middle mx-1">・</span>
         <span class="inline-block align-middle">{{ distance }}</span>

@@ -14,7 +14,7 @@ import { searchResult, searchString, setSearchOpen } from '~/composables/store'
       <input
         ref="inputRef"
         :value="searchString"
-        placeholder="Search"
+        placeholder="搜索"
         class="px-3 py-4 outline-none w-full"
         @change="
           (e) => {
