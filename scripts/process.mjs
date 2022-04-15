@@ -31,7 +31,7 @@ import fg from 'fast-glob';
       //   .trim()
 
       i.properties.referrers = Object.keys(i.properties)
-        .map(i => i.match(/(@[\w_-]+)/))
+        .map(i => i.match(/(@[\u4E00-\u9FA5_a-zA-Z0-9]+)/))
         .filter(Boolean)
         .map(i => i[1])
     })
